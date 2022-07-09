@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 83vh;
+            background-image: linear-gradient(to bottom right, blue, pink);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #container{
+            background-color: whitesmoke;
+            width: 26%;
+            height: 500px;
+            margin: auto;
+            border-radius: 15px;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        form>input{
+            padding: 30px 20px 10px 10px;
+            border: none;
+            background-color: whitesmoke;
+            border-bottom: 1px solid gray;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        button{
+            width: 64%;
+            text-align: center;
+            margin-top: 25px;
+            height: 40px;
+            border: none;
+            color: white;
+            font-size: 17px;
+            background-image: linear-gradient(to right, rgb(89, 89, 218), rgb(202, 144, 155));
+            cursor: pointer;
+        }
+        p{
+            margin-top: 65px;
+            color: grey;
+        }
+        p+p{
+            margin-top: 15px;
+        }
+
+        a{
+            color: rgb(20, 20, 161);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <div>
+            <form action="submit">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <br><button>Login</button>
+            </form>
+           <p>Forgot <a href="">Password?</a></p>
+           <p>Don't have an account?<a href=""> Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>
